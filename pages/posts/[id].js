@@ -5,7 +5,7 @@ export async function getServerSideProps({query}){
     var sheets = google.sheets({version: "v4", auth});
 
     var {id} = query;
-    var range = `Sheet1!A${id}:C${id}`;
+    var range = `Sheet1!A${id}:G${id}`;
     var response = await sheets.spreadsheets.values.get({
         spreadsheetId: process.env.SHEET_ID,
         range,
