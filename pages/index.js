@@ -8,7 +8,9 @@ export default function Home() {
       <Head>
         <title>My Cool API</title>
         <meta charSet="utf-8" />
+
       </Head>
+      <Image src={favicon} width={150} height={150} className="his"></Image>
       <h1>My Cool API</h1>
       <hr></hr>
       <h2>Usage</h2>
@@ -21,7 +23,6 @@ export default function Home() {
       </kbd>
 
       <p>Now open <a href="http://localhost:300">host 3000</a> in your browser and fetch data with /posts/the row you want to use</p>
-      <p>https://github.com/jlultimate/mycoolapi/tree/main</p>
     </div>
   )
 };
