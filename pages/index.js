@@ -10,7 +10,6 @@ export default function Home() {
         <meta charSet="utf-8" />
 
       </Head>
-      <Image src={favicon} width={150} height={150} className="his"></Image>
       <h1>My Cool API</h1>
       <hr></hr>
       <h2>Usage</h2>
